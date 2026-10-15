@@ -22,8 +22,6 @@ on:
       - '**/mcp.json'
       - '**/.claude-plugin/plugin.json'
       - '.github/workflows/check-mcp-urls.yml'
-  schedule:
-    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
